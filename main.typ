@@ -12,7 +12,7 @@
     top: 40.5mm,
     bottom: 28.8mm,
     left: 20mm,
-    right: 1.8mm,
+    right: 18mm,
   ),
 )
 
@@ -31,6 +31,7 @@
   text(size: 14pt, weight: "bold")[#it]
   v(0.75em)
 }
+
 #show heading.where(level: 2): it => {
   text(size: 11pt, weight: "bold")[#it]
 }
